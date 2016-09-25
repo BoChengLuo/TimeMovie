@@ -18,5 +18,5 @@
 }
 @property(nonatomic,strong)Datasours *movi;
 -(void)changeview;
-
+-(void)changeVview;
 @end

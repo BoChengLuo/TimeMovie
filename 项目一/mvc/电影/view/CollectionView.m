@@ -44,7 +44,10 @@
         PhotoCell *cell = (PhotoCell *)[collectionView cellForItemAtIndexPath:indexPath];
         [cell changeview];
     }else{
+        NSIndexPath *indexpath = [NSIndexPath indexPathForItem:self.mmi inSection:0];
+        PhotoCell *cell = (PhotoCell *)[collectionView cellForItemAtIndexPath:indexpath];
         [collectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
+        [cell changeVview];
     }
     self.mmi = indexPath.row;
 }

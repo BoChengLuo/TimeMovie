@@ -45,5 +45,18 @@
     } completion:nil];
     left = !left;
 }
+-(void)changeVview{
+NSInteger index1 = [self.contentView.subviews indexOfObject:_imageview];
+NSInteger index2 = [self.contentView.subviews indexOfObject:_detaview];
+    if (index2>index1) {
+        
+        [UIView transitionWithView:self duration:.6 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+            if (index2 >index1) {
+                
+                [self.contentView exchangeSubviewAtIndex:index1 withSubviewAtIndex:index2];
+            }
+        } completion:nil];
+    }
+}
 
 @end

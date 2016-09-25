@@ -13,7 +13,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self creatview];
-        self.maximumZoomScale = 5.0;
+        self.maximumZoomScale = 3.0;
         self.delegate = self;
         self.showsHorizontalScrollIndicator = NO;
         self.showsVerticalScrollIndicator = NO;

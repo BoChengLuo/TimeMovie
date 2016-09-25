@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D1820111D96173500A67DBD /* Tableviewcel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1820101D96173500A67DBD /* Tableviewcel.m */; };
+		6D1820141D961A0800A67DBD /* Moviemodel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1820131D961A0800A67DBD /* Moviemodel.m */; };
+		6D1820161D96829F00A67DBD /* 27@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D1820151D96829F00A67DBD /* 27@2x.png */; };
 		6D678FB41D6EDF31008495FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D678FB31D6EDF31008495FB /* main.m */; };
 		6D678FB71D6EDF31008495FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D678FB61D6EDF31008495FB /* AppDelegate.m */; };
 		6D678FBA1D6EDF31008495FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D678FB91D6EDF31008495FB /* ViewController.m */; };
@@ -308,6 +311,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D18200F1D96173500A67DBD /* Tableviewcel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tableviewcel.h; sourceTree = "<group>"; };
+		6D1820101D96173500A67DBD /* Tableviewcel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tableviewcel.m; sourceTree = "<group>"; };
+		6D1820121D961A0800A67DBD /* Moviemodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moviemodel.h; sourceTree = "<group>"; };
+		6D1820131D961A0800A67DBD /* Moviemodel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Moviemodel.m; sourceTree = "<group>"; };
+		6D1820151D96829F00A67DBD /* 27@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "27@2x.png"; sourceTree = "<group>"; };
 		6D678FAF1D6EDF31008495FB /* 项目一.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "项目一.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D678FB31D6EDF31008495FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D678FB51D6EDF31008495FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -715,6 +723,7 @@
 				6D678FBB1D6EDF31008495FB /* Main.storyboard */,
 				6D678FBE1D6EDF31008495FB /* Assets.xcassets */,
 				6D678FC01D6EDF31008495FB /* LaunchScreen.storyboard */,
+				6D1820151D96829F00A67DBD /* 27@2x.png */,
 				6D678FC31D6EDF31008495FB /* Info.plist */,
 				6D678FB21D6EDF31008495FB /* Supporting Files */,
 			);
@@ -860,6 +869,8 @@
 		6D678FEE1D6EE19F008495FB /* modle */ = {
 			isa = PBXGroup;
 			children = (
+				6D1820121D961A0800A67DBD /* Moviemodel.h */,
+				6D1820131D961A0800A67DBD /* Moviemodel.m */,
 			);
 			path = modle;
 			sourceTree = "<group>";
@@ -867,6 +878,8 @@
 		6D678FEF1D6EE19F008495FB /* view */ = {
 			isa = PBXGroup;
 			children = (
+				6D18200F1D96173500A67DBD /* Tableviewcel.h */,
+				6D1820101D96173500A67DBD /* Tableviewcel.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1507,6 +1520,7 @@
 				6D6790F61D6F0A80008495FB /* volume_tip.png in Resources */,
 				6D6791601D6F0A80008495FB /* scspxw@2x.png in Resources */,
 				6D67913B1D6F0A80008495FB /* Icon-Spotlight-40.png in Resources */,
+				6D1820161D96829F00A67DBD /* 27@2x.png in Resources */,
 				6D6791831D6F0A80008495FB /* movie_cinema@2x.png in Resources */,
 				6D67915F1D6F0A80008495FB /* scspxw.png in Resources */,
 				6D6790EC1D6F0A80008495FB /* point.png in Resources */,
@@ -1743,6 +1757,7 @@
 				6D6792561D7167FC008495FB /* StarView.m in Sources */,
 				6D9CD57C1D829CE300FA1B81 /* TTopCell.m in Sources */,
 				6D6792491D7059CD008495FB /* SDWebImageDownloader.m in Sources */,
+				6D1820111D96173500A67DBD /* Tableviewcel.m in Sources */,
 				6D6791D81D7005BA008495FB /* Datasours.m in Sources */,
 				6D678FBA1D6EDF31008495FB /* ViewController.m in Sources */,
 				6D6790131D6F0759008495FB /* MoreController.m in Sources */,
@@ -1754,6 +1769,7 @@
 				6D6792451D7059CD008495FB /* NSData+ImageContentType.m in Sources */,
 				6D9CD54A1D8102F700FA1B81 /* HeardCollectionview.m in Sources */,
 				6D7883FB1D7579D9006649E6 /* ViewCell.m in Sources */,
+				6D1820141D961A0800A67DBD /* Moviemodel.m in Sources */,
 				6D67924E1D7059CD008495FB /* UIImage+GIF.m in Sources */,
 				6D67924D1D7059CD008495FB /* UIButton+WebCache.m in Sources */,
 				6D67900D1D6F0706008495FB /* TopController.m in Sources */,

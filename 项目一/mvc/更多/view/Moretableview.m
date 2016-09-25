@@ -77,6 +77,7 @@
             cell = [[[NSBundle mainBundle]loadNibNamed:@"MoreTableViewCell" owner:self options:nil]lastObject];
             cell.data = _datarry[indexPath.row];
             cell.retainlable.text = _string;
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             cell.backgroundColor =[UIColor clearColor];
         }
         return cell;
@@ -85,6 +86,7 @@
         if (!cell) {
             cell = [[[NSBundle mainBundle]loadNibNamed:@"OtherTableViewCell" owner:self options:nil]lastObject];
             cell.data = _datarry[indexPath.row];
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             cell.backgroundColor = [UIColor clearColor];
         }
         return cell;
@@ -92,7 +94,7 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row==0) {
-        UIAlertView *view = [[UIAlertView alloc]initWithTitle:@"提示" message:@"香水有毒" delegate:self cancelButtonTitle:@"搞" otherButtonTitles:@"不搞", nil];
+        UIAlertView *view = [[UIAlertView alloc]initWithTitle:@"提示" message:@"缓存有毒，建议排除" delegate:self cancelButtonTitle:@"不搞它" otherButtonTitles:@"neng死它", nil];
         [view show];
     }
 }

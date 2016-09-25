@@ -39,6 +39,8 @@
     [self addSubview:_yellow];
 }
 -(void)setRaint:(CGFloat)raint{
+//    _yellow.transform = CGAffineTransformIdentity;
+    _yellow.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
     _raint = raint;
     CGFloat s =raint/10;
     _yellow.frame = CGRectMake(0, 0, _yellow.frame.size.width*s, _yellow.frame.size.height);

@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface CinemController : UIViewController
+{
+    __weak IBOutlet UITableView *_TatleView;
+    NSMutableArray *_dataarry;
+    
+}
 
 @end

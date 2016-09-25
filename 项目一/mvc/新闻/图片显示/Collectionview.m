@@ -8,6 +8,7 @@
 
 #import "Collectionview.h"
 #import "ViewCell.h"
+#import "Scrollview.h"
 
 @implementation Collectionview
 -(instancetype)initWithFrame:(CGRect)frame{
@@ -24,6 +25,10 @@
         [self registerClass:[ViewCell class] forCellWithReuseIdentifier:@"cell"];
     }
     return self;
+}
+-(void)collectionView:(UICollectionView *)collectionView didEndDisplayingCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath{
+    ViewCell *cel = (ViewCell *)cell;
+    [cel.scrollview setZoomScale:1.0 animated:YES];
 }
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
     return _imagarr.count;
